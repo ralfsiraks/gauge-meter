@@ -6,17 +6,6 @@ const amount = document.querySelector(".amount");
 const date = document.querySelector(".date");
 const time = document.querySelector(".time");
 
-setTimeout(() => {
-  process_txt.classList.add("active");
-}, 0);
-
-setTimeout(toggleMsg, 1600);
-
-function toggleMsg() {
-  process_txt.classList.remove("active");
-  success_txt.classList.add("active");
-}
-
 const placeholderData = {
   day1: {
     date: `2023/01/01`,
