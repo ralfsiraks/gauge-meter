@@ -79,7 +79,7 @@ const program = (data) => {
     counter++;
 
     if (counter === data.length) clearInterval(interval);
-  }, 1000);
+  }, 2000);
 };
 
 program(entries);
